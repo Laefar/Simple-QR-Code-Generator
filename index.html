@@ -1,7 +1,16 @@
 <html>
     <body>
         <div id="qrcode"></div>
-        <script src="lib/qrcode.min.js"></script>
+
+        <div>
+            <input type="text" id="linkArea" style="width: 100%;margin-top:5%;" value="">
+        </div>
+
+        <div style="display: flex; justify-content: center; align-items: center;margin-top:3%">
+            <button id="generateBtn"><span>Generate New QR Code</span></button>
+        </div>
+
+        <script src="lib/qrcode.min.js"></script> 
         <script type="text/javascript" src="src/generateQR.js"></script>
     </body>
 </html>
